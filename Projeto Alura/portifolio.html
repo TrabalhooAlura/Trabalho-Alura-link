@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="portifolio.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Avatar.png" alt="avatar do Vinicius" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Vinicius</p>
+        <h1>Eu ensino Programação</h1>
+        <p>Sou Engenheiro de Computação e Pedagogo. Ensino pensamento computacional para estudantes do Ensino
+            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardápio de comida grega: Prato de Poseidon</h5>
+                        <p class="card-text">Este projeto é um cardápio de comida grega que apresenta uma lista de alimentos,
+                            incluindo informações sobre os pratos, valores, composição e etc. A página é estilizada com CSS para uma visualização agradável.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Fotografia urbana: Ruas em foco</h5>
+                        <p class="card-text">Este projeto é um site interativo baseado em fotografia urbana que explora o
+                            impacto e as implicações da arte moderna na sociedade, permitindo que os
+                            artistas compartilhem suas fotos de paisagens urbanas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 3.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de empresa de água
+                        </h5>
+                        <p class="card-text">Este projeto cria uma experiência interativa sobre o uso da água, permitindo aos usuários explorar informações sobre as consequências de seu desperdicio,
+                            e os impactos dessa falta de conscientização na sociedade.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cardápio de comida grega: Prato de Poseidon</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um cardápio de comida grega que apresenta uma lista de alimentos,
+                        incluindo informações sobre os pratos, valores, composição e etc. A página é estilizada com CSS para uma visualização agradável.</p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta os pratos do restaurante, e informações para compra, além de suas categorias. Cada categoria de prato é destacada em seu próprio contêiner (.prato), mostrando uma
+                        imagem do prato servido, detalhes do prato exibido e informações para compra. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração da coleção pratos e bebidas.</p>
+                    <img src="img/Projeto 1.png" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fotografia urbana: Ruas em foco</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        mostra fotos artisticas de fotografos ao redor do mundo. O objetivo é
+                        explorar o comércio artistico e abrir novas oportunidades para artistas iniciantes.
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, exposições, galeria, locais e etc. O CSS
+                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao site, manipulando o DOM para atualizar o conteúdo da página conforme a interação
+                        do usuário.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de fotos em uma seção
+                        flexível (.galeria). Cada foto é destacada em seu próprio contêiner (.foto), mostrando uma
+                        imagem, detalhes da foto e informaçõed o fotografo. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>Os scripts JavaScript incluem um carrossel de imagens, um FAQ e um menu hamburgue do lado esquedo do site na versão mobile. Este design modular facilita a manutenção e a
+                        expansão futura do site. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
+                        na criação de uma experiência interativa que não apenas entretém, mas também ensina os usuários
+                        sobre a complexidade ética e social da arte, incentivando a reflexão crítica sobre o papel da
+                        mesma em nossas vidas.
+                    </p>
+                    <img src="img/Projeto 2.png" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em um trabalho realizado para uma empresa vendedora de água, usando HTML, CSS E JavaScript foi criado um site de venda de água, com um menu que além das funcionalidades para copra de produtos, possui uma guia extra que contém uma experiência interativa para o usuário, alertando sobre o desperdicio de água, suas consequências e provomendo a empresa, por evitar este desperdicio.</p>
+                    <img src="img/Projeto 3.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/TrabalhooAlura">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Vinicius Dias</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
